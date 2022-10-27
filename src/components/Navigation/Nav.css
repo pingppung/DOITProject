@@ -1,0 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/jk-abode');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap');
+.Nav {
+    position: absolute;
+    left: 0%;
+    right: 84%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #0a0a0a;
+}
+.title {
+    position: absolute;
+    width: 100%;
+
+    font-family: 'JK Abode', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4vmin;
+    line-height: 28px;
+    
+    color: #FFD910;
+}
+.NavItems{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 191px;
+}
+.icon{
+    width: fit-content;
+    margin-right: 10px;
+}
+.NavItem {
+    padding-left: 15%;
+    margin: 10px;
+    text-align : left;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 3vmin;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.NavItem:hover {
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #FFD910;
+    color: black;
+    font-weight: 300;
+}
