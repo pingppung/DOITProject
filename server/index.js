@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 4000;
 const db = require('./config/db');
 
 app.get('/hello', (req, res) => {
-    res.send({ data : 'Hello react' });
+    res.send({ data : 'Hello react!! I am server~~'  });
 })
 
 
